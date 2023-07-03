@@ -58,3 +58,43 @@ body {
     color: white;
     border-radius: 5px;
 }
+
+.btn-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-group label {
+    display: block;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-group label:hover {
+    background-color: #ddd;
+}
+
+.btn-group label input[type="checkbox"] {
+    display: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+/* .btn-group label input[type="checkbox"]:checked+span {
+    background-color: #44b86e;
+    color: white;
+} */
+
+#totalCost {
+    font-weight: bold;
+    padding: 10px;
+}
