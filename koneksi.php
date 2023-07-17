@@ -1,10 +1,10 @@
 <?php
 $servername = "localhost";
-$database = "db_jwdc";
+$database = "db_peserta";
 $username = "root";
 $password = "";
  
-// Create connection
+// Create prosedural mysqli connection
 $conn = mysqli_connect($servername, $username, $password, $database);
  
 // Check connection
