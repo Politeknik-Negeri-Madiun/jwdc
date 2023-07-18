@@ -2,9 +2,10 @@
 $host="localhost";
 $u='root';
 $p="";
+$database="db_mhs";
 
-// mysqli OOP
-$conOOP=new mysqli($host,$u,$p,"db_peserta");
+// MySQLi (object-oriented)
+$conOOP=new mysqli($host,$u,$p,$database);
 if($conOOP->connect_error){
     die(" Koneksi gagal".$conOOP->connect_error);
 }
