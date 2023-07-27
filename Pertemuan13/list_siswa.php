@@ -35,3 +35,8 @@ $jumlah=mysqli_num_rows($hasil);
     ?>
 </table>
 Total = <?php echo ($jumlah)?>
+<?php
+
+mysqli_close($conn);
+
+?>
